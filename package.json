@@ -1,0 +1,21 @@
+{
+  "name": "ablaze-theme",
+  "displayName": "Ablaze Theme",
+  "description": "A minimalist color theme that burns softly. Just a few carefully chosen colors, enough to guide your eyes without overwhelming them. Warm where it counts, muted where it matters.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ablaze",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ablaze-color-theme.json"
+      }
+    ]
+  }
+}
