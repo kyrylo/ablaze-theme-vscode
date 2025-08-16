@@ -7,9 +7,9 @@
     "activityBarBadge.foreground": "#ffefb3",
     "sideBarTitle.foreground": "#2e2815",
     "editorGutter.background": "#2e2815",
-    "editorGutter.addedBackground": "#C3E88D",
+    "editorGutter.addedBackground": "#d7eaac",
     "editorGutter.modifiedBackground": "#C792EA",
-    "editorGutter.deletedBackground": "#FF5370",
+    "editorGutter.deletedBackground": "#ef7567",
     "editorRuler.foreground": "#37302a",
     "sideBar.background": "#2e2815",
     "sideBar.foreground": "#9a906e",
@@ -62,7 +62,7 @@
     "inputOption.activeBackground": "#5a4d3d",
     "inputOption.activeForeground": "#ffefb3",
     "inputValidation.errorBackground": "#37302a",
-    "inputValidation.errorBorder": "#FF5370",
+    "inputValidation.errorBorder": "#ef7567",
     "inputValidation.warningBackground": "#37302a",
     "inputValidation.warningBorder": "#C792EA",
     "focusBorder": "#37302a",
@@ -101,20 +101,22 @@
     "editorBracketHighlight.foreground4": "#ffefb3",
     "editorBracketHighlight.foreground5": "#ffefb3",
     "editorBracketHighlight.foreground6": "#ffefb3",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#FF5370",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ef7567",
     "gitDecoration.ignoredResourceForeground": "#9a906e",
     "quickInputList.focusIconForeground": "#ffcbaa",
     "list.filterMatchBackground": "#ffcbaa40",
     "list.filterMatchBorder": "#ffcbaa",
+    "editor.findMatchForeground": "#ef7567",
     "editor.findMatchBackground": "#5a4d3d",
-    "editor.findMatchHighlightBackground": "#ffcbaa20",
-    "editor.findMatchBorder": "#ffcbaa",
+    "editor.findMatchHighlightForeground": "#ef7567ff",
+    "editor.findMatchHighlightBackground": "#37302a80",
     "editor.findRangeHighlightBackground": "#ffcbaa20",
+    "searchEditor.findMatchBackground": "#5a4d3d",
+    "searchEditor.textInputBorder": "#37302a",
     "editorWidget.background": "#2e2815",
     "editorWidget.foreground": "#ffefb3",
     "editorWidget.border": "#37302a",
     "widget.shadow": "#2e281580",
-    "editor.findMatchForeground": "#ffefb3",
     "peekViewTitleDescription.foreground": "#9a906e"
   },
   "tokenColors": [
@@ -256,7 +258,7 @@
         "variable.import.parameter.js",
         "variable.other.class.js"
       ],
-      "settings": { "foreground": "#FF5370" }
+      "settings": { "foreground": "#ef7567" }
     },
     {
       "name": "Language methods",
@@ -307,7 +309,7 @@
     {
       "name": "Deleted",
       "scope": ["markup.deleted"],
-      "settings": { "foreground": "#FF5370" }
+      "settings": { "foreground": "#ef7567" }
     },
     {
       "name": "Changed",
@@ -342,7 +344,7 @@
       "scope": [
         "source.js constant.other.object.key.js string.unquoted.label.js"
       ],
-      "settings": { "fontStyle": "italic", "foreground": "#FF5370" }
+      "settings": { "fontStyle": "italic", "foreground": "#ef7567" }
     },
     {
       "name": "Ruby Interpolation",
@@ -352,7 +354,7 @@
     {
       "name": "Problems Error",
       "scope": ["log.error"],
-      "settings": { "foreground": "#FF5370" }
+      "settings": { "foreground": "#ef7567" }
     },
     {
       "name": "Problems Warning",
@@ -385,7 +387,7 @@
       "scope": [
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
-      "settings": { "foreground": "#FF5370" }
+      "settings": { "foreground": "#ef7567" }
     },
     {
       "name": "JSON Key - Level 4",
@@ -406,7 +408,7 @@
       "scope": [
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
-      "settings": { "foreground": "#f07178" }
+      "settings": { "foreground": "#ef7567" }
     },
     {
       "name": "JSON Key - Level 7",
@@ -459,7 +461,7 @@
     {
       "name": "Markup - Bold",
       "scope": ["markup.bold", "markup.bold string"],
-      "settings": { "fontStyle": "bold", "foreground": "#f07178" }
+      "settings": { "fontStyle": "bold", "foreground": "#ef7567" }
     },
     {
       "name": "Markup - Bold-Italic",
