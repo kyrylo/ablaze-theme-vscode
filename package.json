@@ -2,7 +2,7 @@
   "name": "ablaze-theme",
   "displayName": "Ablaze Theme",
   "description": "A minimalist color theme that burns softly. Just a few carefully chosen colors, enough to guide your eyes without overwhelming them. Warm where it counts, muted where it matters.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.103.0"
   },
