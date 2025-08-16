@@ -1,6 +1,7 @@
 {
   "name": "ablaze-theme",
   "displayName": "Ablaze Theme",
+  "publisher": "KyryloSilin",
   "description": "A minimalist color theme that burns softly. Just a few carefully chosen colors, enough to guide your eyes without overwhelming them. Warm where it counts, muted where it matters.",
   "version": "1.0.0",
   "engines": {
@@ -17,5 +18,9 @@
         "path": "./themes/ablaze-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kyrylo/ablaze-theme-vscode.git"
   }
 }
